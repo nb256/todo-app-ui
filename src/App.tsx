@@ -4,6 +4,7 @@ import { Provider } from "react-redux";
 import store from "./store";
 import SignUp from "./pages/SignUp";
 import Login from "./pages/Login";
+import Todos from "./pages/Todos";
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
   {
     path: "/login",
     element: <Login />,
+  },
+  {
+    path: "/todos",
+    element: <Todos />,
   },
 ]);
 
